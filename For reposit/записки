@@ -1,0 +1,275 @@
+SQL = Structure Query language
+JQuery - Java Script библиотека
+
+BIOS stands for "basic input/output system.
+
+с Ctrl+K слагаме коментар в Notepad ++ на вече маркиран текст.
+Web applications - преобразуване на десктоп приложение в уебсайт.
+{} - фигурни скоби
+[] - 
+MVC - Model View-controller
+
+GUI - Grafic User Interface
+IDE - Integrated Developer Environment
+CGI - Common Gateway Interface - спецификация, по която интернет сървърите и уеб клиентите си комуникират. CGI eзиците са езиците, с които може да се пише web.
+
+Pascal case - първата буква е главна и всяка следваща дума започва с главна буква, не се слагат разстояния. Класовете в C# се наименоват по този начин.  
+
+Convention over configuration (also known as coding by convention) is a software design paradigm which seeks to decrease the number of decisions that developers need to make, gaining simplicity, but not necessarily losing flexibility.
+
+In software engineering, don't repeat yourself (DRY) is a principle of software development aimed at reducing repetition of information of all kinds, especially useful in multi-tier architectures. The DRY principle is stated as "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system." 
+
+Model–view–controller (MVC) is a software architecture pattern which separates the representation of information from the user's interaction with it.[1][2] The model consists of application data, business rules, logic, and functions. A view can be any output representation of data, such as a chart or a diagram. Multiple views of the same data are possible, such as a bar chart for management and a tabular view for accountants. The controller mediates input, converting it to commands for the model or view.[3]
+
+http://en.wikipedia.org/wiki/Technology_evangelist
+
+TPS - http://en.wikipedia.org/wiki/TPS_report
+http://en.wikipedia.org/wiki/DBase
+
+ -- NB! Виж: http://www4u.search.bg/tips/imagemap/imagemap.phtml за imagemap! --
+ 
+В DOM дървото не съществува понятието ред в параграф, освен ако не се обособи. 
+
+Скриптовите езици при всяка една заявка се компилират.
+ Те се изпълняват от програма, наречена интерпретатор. 
+ Например браузърите са интерпретаторите на PHP, Ruby, ASP.NET и т.н. сървърни езици.
+ 
+HTML и CSS не са езици за програмиране. Те са mark-up езици.
+
+VBScript = Visual Basic Scripting Edition (=/= Visual Basic) - бил е предназначен да бъде конкуренция на Java Script. Работи само на Windows explorer. Не успява да 
+стане конкуренция на JS.
+
+Интернет приложенията на JAVA се наричат аплети. Те са файлове с разширение .class и се вмъкват в HTML документа между таговете <APPLET> и
+ </APPLET>.
+
+
+-- HTML записки --
+
+Тагът <tt> </tt> не се подържа от HTML5. За тази цел трябва да използваме CSS.
+Процесът на визуализиране на HTML от браузъра се нарича рендиране.
+
+http://www.thelivingcanvas.com/guither/webtricks/basiccontainer.html - контейнерите в HTML
+Място за изграждане на Imagemap линкове: http://api.imapbuilder.net/editor/?start=custom
+
+По подразбиране методът във <form> </form> е get.
+
+Чрез attribute-a colspan на <td></td>можем да зададем на колко колони да се разпростира дадена клетка. 
+
+<tt>typewriter sans</tt>
+HTML e markup language, т.е. не е език за програмиране, а за нареждане на елементите на страницата.
+В HTML стойностите на елементите винаги се ограждат с двойни кавички. 
+
+Лейбълите се използват по следния начин:
+<label for="text-field"> First Name </label>
+<input type="text" id="text-field" name="username"/>
+По този начин семантически браузъра определя, че текстът се отнася към това input поле.
+
+С тага <fieldset></fieldset> логически и семантически 
+можем да разделим нашата страница на отделни части. С <legend></legend> задаваме
+заглавието на fieldset-a.
+
+<input type="e-mail" pattern="[^ @]*@[^ @].[^ @]"/> - с pattern задаваме формата на въвеждане на e-maila. ("регулярни изрази").
+
+<input type="url" required="true"/> - in a mobile device brings the url keyboard.
+
+tabindex - с този атрибут задаваме на даден HTML елемент да бъде селектиран преди друг когато сменяме елементите с бутона таб.
+tabindex="0" - това е стойността по подразбиране.
+tabindex="1" - елемент с такъв tabindex ще бъде селектиран пръв сред елементите с tabindex="0" например.
+
+
+
+autocomplete="on" - задаваме на input поле да се запълва автоматично от браузъра при следващо посещение на потребителя с въведените от предишната сесия данни
+autofocus - курсорът застава в input полето с този attribute. Може да има само едно такова поле в дадена страница.
+Когато добавим атрибутът required="required" към <input type="text"> елемент, браузърът няма да изпрати 
+формата към сървъра, ако не сме запълнили съответното поле.
+
+Възможните тагове в рамките на table са th, td, и tr, като table row e ред, а table data - колона. 
+
+Можем да разделяме HTML таблиците на head, body и footer части. В <thead> клетките се отбелязват с <th> вместо
+с <td>. Когато използваме този модел в HTML кодът трябва първо да поставим <thead> и <tfoot> елементите и след
+това <tbody>. Браузърът при отваряне на страницата ще подреди <tfoot> клетките най-отдолу.
+
+Можем да използваме <colgroup> и <col> за контейнери на колони, които да стилизираме после със CSS.
+
+<colgroup>
+<col style="border: red inset; background-color: #333333;"/><col class="col-2"/><col id="col-3"/><col/>
+</colgroup>
+
+<table> атрибутът cellpadding не се подържа в HTML5. Вместо него може да използваме CSS, за да зададем
+разстояние между клетките и рамката на таблиците.
+
+
+<input type="range" min="0" max="100" step=""/>
+<input type="number" min="0" max="100" step=""/>
+
+Когато използваме <th></th> (tablehead) вместо <tr></tr>, текстът отива в центъра на клетката и става удебелен.
+Nested table - таблица, намираща се в таблица.
+
+Чрез rowspan и colspan задаваме дадена клетка да заема пространство за повече от една клетка.
+
+Един HTML документ може да има безброй класове. Повече от 1 се задават като ги изброим в attribute-a class без запетая.
+
+textarea трябва да се остави празно, ако искаме да не излиза текст по подразбиране в полето, но винаги се затваря тагът. С атрибутът 
+readonly="readonly" задаваме на textarea елементът да не може да се променя от потребителя и само да съдържа текстът, който сме задали
+между двата тага. 
+
+
+В HTML при тага select, когато зададем size="1" се получава падащо меню. 
+В select тагът когато добавим елемента multiple, можем да избираме повече от 1 възможности за списъка. За да избере потребителят повече от 1 вариант трябва да задържи
+Ctrl.
+
+"reset" и "submit" values може да има и <button> елементът освен <input>. 3а <button type="submit"> виж formtarget също. 
+
+<input type="image" src="button.jpg" name="submitButton" /> - по този начин можем да зададем изображение за submit бутонът.
+
+С "reset" бутон формите придобиват стойностите си по подразбиране.
+
+MIME Type - чрез тях можем да разберем как се embed-ват разчлични типове външни файлове към даден НTML документ. (http://en.wikipedia.org/wiki/Internet_media_type) 
+
+Виж cellpadding и cellspacing при HTML <table> тагът, както и colspan и rowspan, с които се обединяват клетки и редове на таблицата.
+
+Inline eлементите са елементи, които се редят един след друг, а блоковите елементи веднага застават на нов ред без да е нужен <br> тагът. Блоковите елементи винаги са правоъгълници,
+дори и без да имат настроен border. Можем да настроим блоков елемент да действа като inline чрез CSS декларацията display: inline;. Така например тагът h1 ще застане на същият ред.
+ Примери за блокови елементи: h1, ul, p, table.
+ 
+ няколко див елемента се поставят един в друг по следния начин:
+<div class="div1">
+<div class="div2">
+text text text text text
+text text text text text
+text text text text text
+</div>
+text text text text text
+text text text text text
+text text text text text
+</div> 
+Когато добавим target="_blank" към anchor елемент, той се отваря в нов таб на браузъра.
+inline eлементите са елементи, които се редят един след друг, а блоковите елементи веднага застават на нов ред без да е нужен <br> тагът. Блоковите елементи винаги са правоъгълници,
+дори и без да имат настроен border. Можем да настроим блоков елемент да действа като inline чрез CSS декларацията {display: inline;}. Така например тагът h1 ще застане на същият ред. 
+Примери за блокови елементи: h1, ul, p, table
+span тагът е inline елемент, който може да се използва за контейнер за текст. Няма специално определена функция.
+
+
+ Inline елементите нямат height, освен ако не ги направим на блокови елементи със style="display: block;"
+ 
+
+когато наименуваме класове в html е неправилно когато наименуваме класове и id те да започват с цифра, защото CSS няма да работи при тях. 
+
+
+При <ul> и <ol> елементите в тях се изреждат с <li> </li>, a при <dl> с <dt> и <dd> в тях. 
+
+-- CSS записки --
+
+!! http://make.wordpress.org/core/handbook/coding-standards/css/ - CSS coding standart
+!! http://tech.karbassi.com/2008/05/27/css-font-list/ available sans on the web.
+!! http://css-tricks.com/almanac/ some CSS selectors and properties
+!! http://www.colorzilla.com/gradient-editor/ CSS gradient editor
+!! http://css-tricks.com/css-variables-with-php/ PHP & CSS
+!! http://line25.com/tutorials/how-to-create-a-pure-css-dropdown-menu drop down menu
+
+id-тата са case sensitive.
+#PAGE
+#page
+#Page - това са три различни id-та. 
+p .classname е различно от p.classname. При първото правилото в CSS ще зададе декларация за параграфите, които са с class="classname", a при втория случай правилото ще направи промени на всички елементи в параграфите в html файлът,
+които са с class="classname".(Въведение в СSS, 0:39:00)
+p * {color: black} - селектира всички елементи, които са в p тагът.
+* {background-color: red} - действа върху всички елементи. Не е препоръчително да се използва, понеже действа бавно, защото трябва да селектира абсолютно всички елементи. 
+img + .link { ... }  - променя елементите с клас.link, които се намират на същото равнище с елемента. 
+формат rgbа: (255, 0, 0, 0.5) - четвъртият канал е за прозрачност.
+Същото важи и за HSLA.
+При webkit браузърите когато променяме изгледът на scroll-a може да има проблеми със скрола на елемент с overflow: auto.
+background-size: content - използва оригиналният размер на изображението, 
+background-size: cover - разстяга изображението, за да покрие целия фон без да се налага дасе повтаря.
+Box model се наричат разстоянията между елементите content -- padding -- border -- margin. 
+
+Inline CSS-ът не се счита за добра практика.(style="border: green 2px inset;").
+при <span style="display: box"> <a href="#"> ... </a> </span> можем да  задаваме мястото на линк в рамките на даден
+блоков елемент, но ако използваме div вместо span, линкът ще се появи извън блоковия елемент.
+
+box-shadow: за да работи при Chrome, Safari и Mozilla трябва да добавим -webkit- и -moz- отпред. Стойностите на декларацията са:
+box-shadow: h-shadow v-shadow blur spread color inset; задължителни са първите две стойности!
+
+С line-heiht задаваме разстоянието между редовете в CSS.
+Със CSS width може да се зададе само на блокови елементи.
+Селектори базирани на атрибути се задават чрез [] по следния начин:
+input[type=text] {font-family: verdana} - правилото ще работи при всички полета за въвеждане на текст
+a[title] {text-decoration: none} - правилото ще работи при всички хиперлинкове с атрибут title
+а[title*=traphic] {color:blue} - правилото ще работи при хиперлинкове, чиито title атрибут съдържа думата "traphic"
+a[title^=traphic] {font-family: verdana} - правилото ще работи при хиперлинкове, чиито title атрибут започва с думата "traphic"
+a[title$=traphic] {background-color: brown} - правилото ще работи при хиперлинкове, чиито title атрибут завършва с думата "traphic"
+стойностите, които може да има overflow декларацията в css могат да бъдат hidden, inherit, visible, scroll, auto
+декларацията text-shadow си струва да се използва за задаването на сянка на текста при по-богат на тонове фон.
+декларацията empty-cells може да има стойност inherit, show или hide.
+
+Типовете gradient фон могат да бъдат: linear, repeat linear, radient, repeating radial gradient (http://www.css3files.com/gradient/)
+
+.class:not (p) {...} - правилото ще действа за всички елементи с клас "class", които не са параграфи.
+
+
+ Когато задаваме height=100% на <div> елемента, той става 100% от големината на parental съдържанието на тага.
+
+ Inline елементите нямат height, освен ако не ги направим на блокови елементи със style="display: block;"
+ 
+когато използваме Inline CSS code вместо {} обграждаме декларациите с кавички. Например: style="text-align: left; border: 1px red solid; text-shadow: 1px 1px #999;"
+Декларациите, които се състоят от повече от две думи, се въвеждат с кавички в CSS кодът. Например:
+body {font-family: "sans serif";}
+
+inline eлементите са елементи, които се редят един след друг, а блоковите елементи веднага застават на нов ред без да е нужен <br> тагът. Блоковите елементи винаги са правоъгълници,
+дори и без да имат настроен border. Можем да настроим блоков елемент да действа като inline чрез CSS декларацията {display: inline;}. Така например тагът h1 ще застане на същият ред. 
+Примери за блокови елементи: h1, ul, p, table
+
+span тагът е inline елемент, който може да се използва за контейнер за текст. Няма специално определена функция.
+
+
+
+
+-- PHP записки -- 
+Масивите са една от силите на езика. Сигурно е езикът с най-голяма подръжа на масиви. Възможно е да имаме масив в масива (многомерен масив).
+
+var_dump не трябва да се използва при готовия продукт на програмирането с РНР.
+
+String-овете трябва да бъдат обградени с кавички. Иначе когато задаваме стойността им и имаме space кодът ще изведе грешка. 
+
+името на променливата е хубаво да се отнася смислово по някакъв начин с предназначението й 
+; представлява край на логически ред
+
+ php тагът може да се записва и по съкратения вариант:
+<?
+?> без думата php при отварящите скоби, но има сървъри, които не биха могли да разчетат този тип записване. 
+
+ коментарите рабоят само в рамката на <?php ?>тагът.
+В PHP има значение дали ще се поставят двойни или единични кавички. 
+
+Цикълът foreach се изпозлва за обхождане на масиви основно.
+
+= присвояване
+== проверяване
+=== еднаквост - т.е. трябва променливите и да са от един и същи тип.
+
+Вторият еднакъв ключ презаписва първия и бива изведен при обхождането на масива.
+Strings containing valid integers will be cast to the integer type. E.g. the key "8" will actually be stored under 8.
+On the other hand "08" will not be cast, as it isn't a valid decimal integer.
+ http://php.net/manual/en/language.types.array.php
+ 
+ $_REQUEST е глобален масив, който съдържа в себе си $_POST и $_GET променливите.
+ 
+ isset проверява дали дадена променлива има стойност. Например елемент от масива $_POST[].
+ 
+ когато използваме uWamp в директорията си не бива да имаме файл index.php, понеже браузърът ще отваря директно него.
+
+Чрез WordWrap(); задава дължината на редовете. По стандарт е 75 символа. 
+Чрез HTMLSpecialChars($str) - заменя всички специални символи с техните HTML еквиваленти. 
+Масив, чийто ключове започват от 0 и следват до края без пропуск се наричат списъци.
+
+The Basics of Git and GitHub - http://www.youtube.com/watch?v=U8GBXvdmHT4&list=WLUVC2hcvjtNOBaQiY1zwaGPVVHUJJrUkE
+
+git init project_name - създава директория 
+tree - софтуер, който показва в терминала "дървото" на дадена директория
+http://en.wikipedia.org/wiki/Lorem_ipsum
+git status - показва с кои файлове сме допринесли
+Untracked files - файлове, които ги има в директорията, но не са commit-нати. (NB)
+16:30 git add & git commit
+Git-cola - Git GUI за Линукс
+Чрез fork в сайта на GitHub копираме сорс кодът на даден чужд проект в наше repository.
+Когато използваме git checkout се ъпгрейдват всички файлове. 
