@@ -1,7 +1,7 @@
 HTML_and_CSS
 ============
 
-HTML and CSS notes I took during a course on web design I took up this summer.
+Notes on HTML and CSS I took down during a course on web design I took up this summer.
 
 ----
 
