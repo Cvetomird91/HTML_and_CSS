@@ -15,7 +15,8 @@ Status bar
 
 Python, Pearl, Ruby, PHP, ASP – сървърни езици. 
 
-Ruby е езикът за програмиране, а Rails – средата за разработка: Ruby on Rails. Gem-овете са плъгините за Ruby on Rails.
+Ruby е езикът за програмиране, а Rails – средата за разработка: Ruby on Rails. 
+Gem-овете са плъгините за Ruby on Rails.
 
 <script type=”text/javascript” src=”път до скрипта.js”>
 
@@ -37,7 +38,6 @@ Boolean –true или false.
 Object
 -Arrays
 -Function – можем да използваме функциите на езика или ние да създаваме функции. 
--data
 Null
 Undefined
 
